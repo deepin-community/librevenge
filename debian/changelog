@@ -1,0 +1,106 @@
+librevenge (0.0.4-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:46:28 +0800
+
+librevenge (0.0.4-6) unstable; urgency=medium
+
+  * [96e8f95] move Maintainer to Debian LibreOffice Maintainers
+  * [dc710a4] remove explicit LIBDIR=/usr/lib and --libdir=$(LIBDIR);
+    multiarchify (closes: #798612, #836535)
+
+ -- Rene Engelhard <rene@debian.org>  Tue, 06 Sep 2016 00:39:51 +0200
+
+librevenge (0.0.4-5) unstable; urgency=medium
+
+  * remove superfluous fi (closes: #832177) 
+
+ -- Rene Engelhard <rene@debian.org>  Sat, 23 Jul 2016 12:42:32 +0200
+
+librevenge (0.0.4-4) unstable; urgency=medium
+
+  * remove some cruft left over in debian/ from the past (closes: #815012)
+
+ -- Rene Engelhard <rene@debian.org>  Wed, 17 Feb 2016 23:46:00 +0100
+
+librevenge (0.0.4-3) unstable; urgency=medium
+
+  * upload to unstable 
+
+ -- Rene Engelhard <rene@debian.org>  Sat, 13 Feb 2016 15:37:41 +0100
+
+librevenge (0.0.4-2) experimental; urgency=medium
+
+  * build with --parallel (see #798612/#798615)
+  * install the gdb helpers into the -dbgsym packages 
+
+ -- Rene Engelhard <rene@debian.org>  Mon, 25 Jan 2016 22:37:58 +0100
+
+librevenge (0.0.4-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Tue, 12 Jan 2016 19:04:22 +0100
+
+librevenge (0.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Fri, 25 Dec 2015 10:49:21 +0100
+
+librevenge (0.0.2-2) unstable; urgency=medium
+
+  * upload to unstable
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 05 Apr 2015 19:52:48 +0200
+
+librevenge (0.0.2-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Sat, 27 Dec 2014 11:06:44 +0100
+
+librevenge (0.0.1-3) unstable; urgency=low
+
+  * upload to unstable 
+
+ -- Rene Engelhard <rene@debian.org>  Thu, 07 Aug 2014 18:54:12 +0200
+
+librevenge (0.0.1-2) experimental; urgency=low
+
+  * fix Homepage: and debian/watch (closes: #756121)
+
+ -- Rene Engelhard <rene@debian.org>  Sat, 26 Jul 2014 18:56:58 +0200
+
+librevenge (0.0.1-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Rene Engelhard <rene@debian.org>  Tue, 03 Jun 2014 18:31:02 +0200
+
+librevenge (0.0.0-4) experimental; urgency=low
+
+  * backport upstream commit to fix type sizes for CPPUNIT_ASSERT_EQUAL 
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 25 May 2014 10:37:27 +0200
+
+librevenge (0.0.0-3) experimental; urgency=low
+
+  * sigh. *really* build depend on libcppunit-dev for the tests
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 25 May 2014 09:27:17 +0200
+
+librevenge (0.0.0-2) experimental; urgency=low
+
+  * build depend on libcppunit-dev for the tests 
+  * remove wrong GPL 3.0 reference from debian/copyright and fix
+    LGPL (s/3.0/2.1/)
+
+ -- Rene Engelhard <rene@debian.org>  Sun, 25 May 2014 09:05:57 +0200
+
+librevenge (0.0.0-1) experimental; urgency=low
+
+  * Initial release
+
+ -- Rene Engelhard <rene@debian.org>  Fri, 23 May 2014 19:45:16 +0200
